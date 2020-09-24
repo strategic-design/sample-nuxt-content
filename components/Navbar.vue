@@ -1,9 +1,9 @@
 <template>
   <nav class="navbar is-dark is-fixed-top" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
-      <a class="navbar-item" href="/">
+      <nuxt-link to="/" class="navbar-item">
         ぬくすと こんてんと
-      </a>
+      </nuxt-link>
 
       <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
         <span aria-hidden="true" />
