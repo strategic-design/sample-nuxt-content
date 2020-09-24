@@ -21,11 +21,12 @@ export default {
       class: 'has-navbar-fixed-top'
     }
   },
-
+  router: {
+    base: '/sample-nuxt-content/'
+  },
   generate: {
     dir: 'docs'
   },
-
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: [
     'github-markdown-css/github-markdown.css'
